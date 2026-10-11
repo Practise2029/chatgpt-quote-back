@@ -1,0 +1,7 @@
+.qb-link { display: block; width: fit-content; margin-top: 8px; padding: 5px 10px; border: 1px solid #8885; border-radius: 8px; background: transparent; color: inherit; font: 12px/1.5 system-ui, sans-serif; cursor: pointer; }
+.qb-link:hover { background: #8882; }
+.qb-panel { position: fixed; z-index: 2147483647; bottom: 28px; left: 50%; transform: translateX(-50%); display: flex; align-items: center; gap: 12px; max-width: min(90vw, 650px); padding: 10px 14px; border: 1px solid #7775; border-radius: 12px; background: #202123; color: #fff; box-shadow: 0 4px 24px #0004; font: 13px/1.5 system-ui, sans-serif; }
+.qb-panel[hidden] { display: none !important; }
+.qb-panel button { flex-shrink: 0; background: #fff; color: #202123; border: 0; border-radius: 6px; padding: 6px 10px; cursor: pointer; }
+::highlight(qb-original) { background: #facc15; color: #111; }
+.qb-flash { outline: 2px solid #eab308; outline-offset: 5px; border-radius: 4px; }
